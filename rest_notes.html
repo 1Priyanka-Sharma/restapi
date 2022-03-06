@@ -1,0 +1,33 @@
+npm init -y
+npm i express mongoose nodemon --save
+simple template
+
+Router simple template:-
+    // 1.Create a new router
+    const router=new express.Router();
+
+    // 2.We need to define the router
+    router.get('/myapi',(req,res)=>{
+    res.send("Hello, I am here");
+    });
+
+    // 3.We need to register our router
+    app.use(ApiRouter);
+
+GUI-Graphical User Interface that helps user to graphically interact with the app.
+    User interface that is used to interact with the app.	
+    Communication between user and app.
+    Eg:-Icons on the screen that helps user to interact with app. (Facebbok.com)
+
+API-Application Programming Interface is an interface(software) that connect/communicates between two apps.
+    Eg:-Weather App shows map data of Google maps through Google Map API Key.
+    [Google map API helps to interact between Weather APP and Google Map.]
+
+REST API-Representational State Transfer API is an architectural style for API that uses HTTP requests to perform CRUD. we will be having same URL for CRUD. We are transferring the state of a resource when requested.
+	State of resource at any particular time is resource representation.
+	Only using mongoose then we will have different URLs for CRUD.
+
+
+
+
+
